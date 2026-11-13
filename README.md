@@ -87,15 +87,15 @@ CSV с отзывами
 ```text
 marketplace-main/
 ├── app/
-│   ├── db/database.py           # Подключение SQLite и сессии SQLModel
-│   └── models/review.py         # Модель Review
-├── dashboard/app.py             # Streamlit и NLP-обработка
-├── data/raw/reviews_sample.csv  # Пример входных данных
-├── notebooks/01_eda.ipynb       # Исследовательский ноутбук
+│   ├── db/database.py          
+│   └── models/review.py        
+├── dashboard/app.py             
+├── data/raw/reviews_sample.csv  
+├── notebooks/01_eda.ipynb       
 ├── scripts/
-│   ├── import_reviews.py        # Импорт CSV
-│   └── check_reviews.py         # Проверка импортированных записей
-├── init_db.py                   # Создание таблиц
+│   ├── import_reviews.py        
+│   └── check_reviews.py         
+├── init_db.py                   
 └── README.md
 ```
 
